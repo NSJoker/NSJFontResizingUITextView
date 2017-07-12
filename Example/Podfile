@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSJFontResizingUITextView_Example' do
+  pod 'NSJFontResizingUITextView', :path => '../'
+
+  target 'NSJFontResizingUITextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
