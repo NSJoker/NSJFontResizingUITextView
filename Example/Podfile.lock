@@ -1,0 +1,16 @@
+PODS:
+  - NSJFontResizingUITextView (0.1.0)
+
+DEPENDENCIES:
+  - NSJFontResizingUITextView (from `../`)
+
+EXTERNAL SOURCES:
+  NSJFontResizingUITextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NSJFontResizingUITextView: 186c1be1beaf54dd7dd7a0d9abf557cb5f599446
+
+PODFILE CHECKSUM: 49d635389fcc49911d0ebb14dba4cae2ac4316db
+
+COCOAPODS: 1.2.1

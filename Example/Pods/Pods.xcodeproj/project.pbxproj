@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19490448197BDB2DEBFFBB99F0798BD0 /* Pods-NSJFontResizingUITextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AF58AFE061DB30A45230F7D1EB36B8 /* Pods-NSJFontResizingUITextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EABE5E17CF79D8C95DCAB1A6A262B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		38075C4EE449F6B44102D1E9259F2D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		686474E43C50F5C0083B85A925784920 /* NSJUITextViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC7A5EEFBF1D93A99DE2ABB69AEE4 /* NSJUITextViewExtention.swift */; };
+		86E1B0DF67DF7C8CD7A6EE83F234820A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8D09F86B4798A7A8023430DF47D6F669 /* Pods-NSJFontResizingUITextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40F776E8492FEB42AFF87DAEFEE336 /* Pods-NSJFontResizingUITextView_Tests-dummy.m */; };
+		A4030F743EDC9EEDB5F5B5A97B5458E6 /* Pods-NSJFontResizingUITextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9689B9C3A3B97CA3F5F1B281425361 /* Pods-NSJFontResizingUITextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B6C0D46E13B07638110E2C7D6C56EA /* NSJFontResizingUITextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BC82218C4AD1E6806C4988E10E214 /* NSJFontResizingUITextView-dummy.m */; };
+		CF2F45CA2823DAE9EDDE608B4A19CF4E /* Pods-NSJFontResizingUITextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF1DB9BFFA25DDC7F19CC1C12298DF /* Pods-NSJFontResizingUITextView_Example-dummy.m */; };
+		CF3FF96F270B0F2F81233BDEBC09DA1A /* NSJFontResizingUITextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D38EFF8E0E2A136B2B243C8AB9B1AA01 /* NSJFontResizingUITextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3687F4A5EC9ED13B6A51CCABF5D3FAF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2385B4FD54547F2DB328E63A4770DABD;
+			remoteInfo = NSJFontResizingUITextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EAB6611502A855C92139F7F5BD1126 /* NSJFontResizingUITextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSJFontResizingUITextView.xcconfig; sourceTree = "<group>"; };
+		1CD7F7B718C7F10904EC5E79E27408C9 /* Pods_NSJFontResizingUITextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSJFontResizingUITextView_Example.framework; path = "Pods-NSJFontResizingUITextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4CD298A5023CC3B4D845AEFCD8C811 /* Pods-NSJFontResizingUITextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSJFontResizingUITextView_Example-resources.sh"; sourceTree = "<group>"; };
+		345A8CD9B864F8E6A3BD01A86676F0CF /* Pods-NSJFontResizingUITextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSJFontResizingUITextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DD2AD850FC4A13B9E1B557370429942 /* Pods-NSJFontResizingUITextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSJFontResizingUITextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		443928FDCE64999DBFE17F96D7C622BA /* Pods-NSJFontResizingUITextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSJFontResizingUITextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B77CF546D80016D361DC623A7528248 /* Pods-NSJFontResizingUITextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSJFontResizingUITextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58E15FEC6A00E1747279DFE829B0DBE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF163DEFA66ECF364D5C4FA8EE0D5A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7BA298A2C7A54FC98FE3231E15397A /* Pods-NSJFontResizingUITextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSJFontResizingUITextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C9689B9C3A3B97CA3F5F1B281425361 /* Pods-NSJFontResizingUITextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSJFontResizingUITextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		76AF58AFE061DB30A45230F7D1EB36B8 /* Pods-NSJFontResizingUITextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSJFontResizingUITextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		815830B071AE0A46FC86EA0FA6D67899 /* Pods-NSJFontResizingUITextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSJFontResizingUITextView_Tests.modulemap"; sourceTree = "<group>"; };
+		8DD9CAD85587C8F0B16C2E8DA23110C2 /* Pods-NSJFontResizingUITextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSJFontResizingUITextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B40F776E8492FEB42AFF87DAEFEE336 /* Pods-NSJFontResizingUITextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSJFontResizingUITextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		9FCDA7198EC0344AB6AB55E5D3F8FFE7 /* Pods-NSJFontResizingUITextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSJFontResizingUITextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B866A8839DC1F5B7DA9C1A3CC70A8A7E /* Pods-NSJFontResizingUITextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSJFontResizingUITextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C00F31031DE39466B20BC45AFBEE66F8 /* Pods-NSJFontResizingUITextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSJFontResizingUITextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C085531586AE32AE9055127E7BDCD3C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38EFF8E0E2A136B2B243C8AB9B1AA01 /* NSJFontResizingUITextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJFontResizingUITextView-umbrella.h"; sourceTree = "<group>"; };
+		D90E5C2C1BA684E0D8737693535260C8 /* Pods-NSJFontResizingUITextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSJFontResizingUITextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D93BC82218C4AD1E6806C4988E10E214 /* NSJFontResizingUITextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJFontResizingUITextView-dummy.m"; sourceTree = "<group>"; };
+		E18B030E88A995C695AA0054C6045910 /* NSJFontResizingUITextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NSJFontResizingUITextView.modulemap; sourceTree = "<group>"; };
+		E5CBE9B2D8C4809431C991C17F32BF2B /* Pods-NSJFontResizingUITextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSJFontResizingUITextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6F289A617D02617E0927E07CD9DD043 /* NSJFontResizingUITextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSJFontResizingUITextView.framework; path = NSJFontResizingUITextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BC7A5EEFBF1D93A99DE2ABB69AEE4 /* NSJUITextViewExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSJUITextViewExtention.swift; sourceTree = "<group>"; };
+		EAFF1DB9BFFA25DDC7F19CC1C12298DF /* Pods-NSJFontResizingUITextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSJFontResizingUITextView_Example-dummy.m"; sourceTree = "<group>"; };
+		ED5A3D6C36A4A305A421E694866E98AD /* Pods-NSJFontResizingUITextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSJFontResizingUITextView_Example.modulemap"; sourceTree = "<group>"; };
+		FD756307405C289FAE952DD629E68508 /* Pods_NSJFontResizingUITextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSJFontResizingUITextView_Tests.framework; path = "Pods-NSJFontResizingUITextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF59BD56C978D95A93425ABA3D890B4A /* NSJFontResizingUITextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJFontResizingUITextView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B729D644CFEBB28702E7212D6FBC452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABE5E17CF79D8C95DCAB1A6A262B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E47483EB4A12170B9997E6A7C24FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38075C4EE449F6B44102D1E9259F2D24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF405D7612BF9F7FC9FECDED26C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E1B0DF67DF7C8CD7A6EE83F234820A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BE140AB733F9E1B819FB5EF9A206E2 /* Pods-NSJFontResizingUITextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C085531586AE32AE9055127E7BDCD3C2 /* Info.plist */,
+				ED5A3D6C36A4A305A421E694866E98AD /* Pods-NSJFontResizingUITextView_Example.modulemap */,
+				345A8CD9B864F8E6A3BD01A86676F0CF /* Pods-NSJFontResizingUITextView_Example-acknowledgements.markdown */,
+				E5CBE9B2D8C4809431C991C17F32BF2B /* Pods-NSJFontResizingUITextView_Example-acknowledgements.plist */,
+				EAFF1DB9BFFA25DDC7F19CC1C12298DF /* Pods-NSJFontResizingUITextView_Example-dummy.m */,
+				8DD9CAD85587C8F0B16C2E8DA23110C2 /* Pods-NSJFontResizingUITextView_Example-frameworks.sh */,
+				2D4CD298A5023CC3B4D845AEFCD8C811 /* Pods-NSJFontResizingUITextView_Example-resources.sh */,
+				76AF58AFE061DB30A45230F7D1EB36B8 /* Pods-NSJFontResizingUITextView_Example-umbrella.h */,
+				B866A8839DC1F5B7DA9C1A3CC70A8A7E /* Pods-NSJFontResizingUITextView_Example.debug.xcconfig */,
+				5C7BA298A2C7A54FC98FE3231E15397A /* Pods-NSJFontResizingUITextView_Example.release.xcconfig */,
+			);
+			name = "Pods-NSJFontResizingUITextView_Example";
+			path = "Target Support Files/Pods-NSJFontResizingUITextView_Example";
+			sourceTree = "<group>";
+		};
+		1141AAF16684CE31B8C3C1C92ADB53B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73834AC9030C3483D77F422A626EBFDF /* NSJFontResizingUITextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B094F8C4775B9B849F9D0C212B6EEB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6F289A617D02617E0927E07CD9DD043 /* NSJFontResizingUITextView.framework */,
+				1CD7F7B718C7F10904EC5E79E27408C9 /* Pods_NSJFontResizingUITextView_Example.framework */,
+				FD756307405C289FAE952DD629E68508 /* Pods_NSJFontResizingUITextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369117EBE863A8273DF2BB4948EB56EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF163DEFA66ECF364D5C4FA8EE0D5A4 /* Info.plist */,
+				E18B030E88A995C695AA0054C6045910 /* NSJFontResizingUITextView.modulemap */,
+				03EAB6611502A855C92139F7F5BD1126 /* NSJFontResizingUITextView.xcconfig */,
+				D93BC82218C4AD1E6806C4988E10E214 /* NSJFontResizingUITextView-dummy.m */,
+				FF59BD56C978D95A93425ABA3D890B4A /* NSJFontResizingUITextView-prefix.pch */,
+				D38EFF8E0E2A136B2B243C8AB9B1AA01 /* NSJFontResizingUITextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSJFontResizingUITextView";
+			sourceTree = "<group>";
+		};
+		3E77D583B4F680D2EA611C803EEAC07C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC7A5EEFBF1D93A99DE2ABB69AEE4 /* NSJUITextViewExtention.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		73834AC9030C3483D77F422A626EBFDF /* NSJFontResizingUITextView */ = {
+			isa = PBXGroup;
+			children = (
+				7DEF09B115F7E83EBBE7F811F14D4F70 /* NSJFontResizingUITextView */,
+				369117EBE863A8273DF2BB4948EB56EB /* Support Files */,
+			);
+			name = NSJFontResizingUITextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1141AAF16684CE31B8C3C1C92ADB53B0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2B094F8C4775B9B849F9D0C212B6EEB5 /* Products */,
+				F498FC959F3C607D6EA8F191F37F3732 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEF09B115F7E83EBBE7F811F14D4F70 /* NSJFontResizingUITextView */ = {
+			isa = PBXGroup;
+			children = (
+				3E77D583B4F680D2EA611C803EEAC07C /* Classes */,
+			);
+			name = NSJFontResizingUITextView;
+			path = NSJFontResizingUITextView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA6627428613B561A81FDBCBC4C20399 /* Pods-NSJFontResizingUITextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				58E15FEC6A00E1747279DFE829B0DBE6 /* Info.plist */,
+				815830B071AE0A46FC86EA0FA6D67899 /* Pods-NSJFontResizingUITextView_Tests.modulemap */,
+				D90E5C2C1BA684E0D8737693535260C8 /* Pods-NSJFontResizingUITextView_Tests-acknowledgements.markdown */,
+				4B77CF546D80016D361DC623A7528248 /* Pods-NSJFontResizingUITextView_Tests-acknowledgements.plist */,
+				9B40F776E8492FEB42AFF87DAEFEE336 /* Pods-NSJFontResizingUITextView_Tests-dummy.m */,
+				9FCDA7198EC0344AB6AB55E5D3F8FFE7 /* Pods-NSJFontResizingUITextView_Tests-frameworks.sh */,
+				443928FDCE64999DBFE17F96D7C622BA /* Pods-NSJFontResizingUITextView_Tests-resources.sh */,
+				6C9689B9C3A3B97CA3F5F1B281425361 /* Pods-NSJFontResizingUITextView_Tests-umbrella.h */,
+				C00F31031DE39466B20BC45AFBEE66F8 /* Pods-NSJFontResizingUITextView_Tests.debug.xcconfig */,
+				3DD2AD850FC4A13B9E1B557370429942 /* Pods-NSJFontResizingUITextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSJFontResizingUITextView_Tests";
+			path = "Target Support Files/Pods-NSJFontResizingUITextView_Tests";
+			sourceTree = "<group>";
+		};
+		F498FC959F3C607D6EA8F191F37F3732 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00BE140AB733F9E1B819FB5EF9A206E2 /* Pods-NSJFontResizingUITextView_Example */,
+				EA6627428613B561A81FDBCBC4C20399 /* Pods-NSJFontResizingUITextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22423E160E51DB2D8ECA4651CE289B8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FF96F270B0F2F81233BDEBC09DA1A /* NSJFontResizingUITextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC243C8472217147588639DDFBFB07C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4030F743EDC9EEDB5F5B5A97B5458E6 /* Pods-NSJFontResizingUITextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1EE9706C88D3E6C2CA999FE832DC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19490448197BDB2DEBFFBB99F0798BD0 /* Pods-NSJFontResizingUITextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2385B4FD54547F2DB328E63A4770DABD /* NSJFontResizingUITextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDB9F1E952B4CE1FC3FF4BA7348FB05 /* Build configuration list for PBXNativeTarget "NSJFontResizingUITextView" */;
+			buildPhases = (
+				C847181EE6F74F65AF03BD4B3004CC87 /* Sources */,
+				0B729D644CFEBB28702E7212D6FBC452 /* Frameworks */,
+				22423E160E51DB2D8ECA4651CE289B8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSJFontResizingUITextView;
+			productName = NSJFontResizingUITextView;
+			productReference = E6F289A617D02617E0927E07CD9DD043 /* NSJFontResizingUITextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CEF9B10477EFFBAB9CE280F375E481B /* Pods-NSJFontResizingUITextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A751A666FB8A19CD616D911EC9B2C8B /* Build configuration list for PBXNativeTarget "Pods-NSJFontResizingUITextView_Example" */;
+			buildPhases = (
+				97EBE8DD6F53465409807AF831753344 /* Sources */,
+				69E47483EB4A12170B9997E6A7C24FCF /* Frameworks */,
+				D6C1EE9706C88D3E6C2CA999FE832DC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9452C53581E908046FBA08402E4ADE21 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSJFontResizingUITextView_Example";
+			productName = "Pods-NSJFontResizingUITextView_Example";
+			productReference = 1CD7F7B718C7F10904EC5E79E27408C9 /* Pods_NSJFontResizingUITextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72DE9B3794ABDE3704388A629167076A /* Pods-NSJFontResizingUITextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456F676FA042781ECB7A0BC93384A978 /* Build configuration list for PBXNativeTarget "Pods-NSJFontResizingUITextView_Tests" */;
+			buildPhases = (
+				6E97F82D9142C1E41AAB8EE450A2A709 /* Sources */,
+				DF405D7612BF9F7FC9FECDED26C9627E /* Frameworks */,
+				AC243C8472217147588639DDFBFB07C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NSJFontResizingUITextView_Tests";
+			productName = "Pods-NSJFontResizingUITextView_Tests";
+			productReference = FD756307405C289FAE952DD629E68508 /* Pods_NSJFontResizingUITextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2B094F8C4775B9B849F9D0C212B6EEB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2385B4FD54547F2DB328E63A4770DABD /* NSJFontResizingUITextView */,
+				6CEF9B10477EFFBAB9CE280F375E481B /* Pods-NSJFontResizingUITextView_Example */,
+				72DE9B3794ABDE3704388A629167076A /* Pods-NSJFontResizingUITextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E97F82D9142C1E41AAB8EE450A2A709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D09F86B4798A7A8023430DF47D6F669 /* Pods-NSJFontResizingUITextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EBE8DD6F53465409807AF831753344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2F45CA2823DAE9EDDE608B4A19CF4E /* Pods-NSJFontResizingUITextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C847181EE6F74F65AF03BD4B3004CC87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B6C0D46E13B07638110E2C7D6C56EA /* NSJFontResizingUITextView-dummy.m in Sources */,
+				686474E43C50F5C0083B85A925784920 /* NSJUITextViewExtention.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9452C53581E908046FBA08402E4ADE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSJFontResizingUITextView;
+			target = 2385B4FD54547F2DB328E63A4770DABD /* NSJFontResizingUITextView */;
+			targetProxy = 3687F4A5EC9ED13B6A51CCABF5D3FAF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052FE714C994BBFF9867E4835F8D0F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B866A8839DC1F5B7DA9C1A3CC70A8A7E /* Pods-NSJFontResizingUITextView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Example/Pods-NSJFontResizingUITextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSJFontResizingUITextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E6B0189D5CC2813A9D36EF1D49681FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EAB6611502A855C92139F7F5BD1126 /* NSJFontResizingUITextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSJFontResizingUITextView/NSJFontResizingUITextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSJFontResizingUITextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSJFontResizingUITextView/NSJFontResizingUITextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSJFontResizingUITextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E01FCC31A28E23BB2EF98F5BD7619D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00F31031DE39466B20BC45AFBEE66F8 /* Pods-NSJFontResizingUITextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Tests/Pods-NSJFontResizingUITextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSJFontResizingUITextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69AB27B6116C4B37C794DCD246B16FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7BA298A2C7A54FC98FE3231E15397A /* Pods-NSJFontResizingUITextView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Example/Pods-NSJFontResizingUITextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSJFontResizingUITextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A484216541EF38DDA70284CBFDBE2DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD2AD850FC4A13B9E1B557370429942 /* Pods-NSJFontResizingUITextView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSJFontResizingUITextView_Tests/Pods-NSJFontResizingUITextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSJFontResizingUITextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7796ED1A7641695DF9081B2EE1BF64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EAB6611502A855C92139F7F5BD1126 /* NSJFontResizingUITextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSJFontResizingUITextView/NSJFontResizingUITextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSJFontResizingUITextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSJFontResizingUITextView/NSJFontResizingUITextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSJFontResizingUITextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDB9F1E952B4CE1FC3FF4BA7348FB05 /* Build configuration list for PBXNativeTarget "NSJFontResizingUITextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B0189D5CC2813A9D36EF1D49681FD /* Debug */,
+				E7796ED1A7641695DF9081B2EE1BF64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456F676FA042781ECB7A0BC93384A978 /* Build configuration list for PBXNativeTarget "Pods-NSJFontResizingUITextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E01FCC31A28E23BB2EF98F5BD7619D4 /* Debug */,
+				A484216541EF38DDA70284CBFDBE2DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A751A666FB8A19CD616D911EC9B2C8B /* Build configuration list for PBXNativeTarget "Pods-NSJFontResizingUITextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052FE714C994BBFF9867E4835F8D0F62 /* Debug */,
+				69AB27B6116C4B37C794DCD246B16FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

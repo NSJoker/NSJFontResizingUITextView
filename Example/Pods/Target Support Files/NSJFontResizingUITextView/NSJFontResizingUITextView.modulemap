@@ -1,0 +1,6 @@
+framework module NSJFontResizingUITextView {
+  umbrella header "NSJFontResizingUITextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

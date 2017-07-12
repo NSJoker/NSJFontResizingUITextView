@@ -1,15 +1,15 @@
 #
-# Be sure to run `pod lib lint NSJFontResizingUITextView.podspec' to ensure this is a
-# valid spec before submitting.
+#  Be sure to run `pod spec lint NSJFontResizingUITextView.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'NSJFontResizingUITextView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NSJFontResizingUITextView.'
+s.name             = 'NSJFontResizingUITextView'
+s.version          = '0.0.1'
+s.summary          = 'An extension for UITextView for dynamicaly changing the font size with its text.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = 'The UITexfield can adjust its font size from a max value to a min value dynamicaly with its text. NSJFontResizingUITextView implements the same for UITexView.'
 
-  s.homepage         = 'https://github.com/laughofnsjoker@gmail.com/NSJFontResizingUITextView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'laughofnsjoker@gmail.com' => 'chandrachudh@f22labs.com' }
-  s.source           = { :git => 'https://github.com/laughofnsjoker@gmail.com/NSJFontResizingUITextView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/NSJoker/NSJFontResizingUITextView'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'NSJoker' => 'laughofnsjoker@gmail.com' }
+s.source           = { :git => 'https://github.com/NSJoker/NSJFontResizingUITextView.git', :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/chandrachudh'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 
-  s.source_files = 'NSJFontResizingUITextView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'NSJFontResizingUITextView' => ['NSJFontResizingUITextView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.source_files = 'NSJFontResizingUITextView/Classes/**/*'
 end

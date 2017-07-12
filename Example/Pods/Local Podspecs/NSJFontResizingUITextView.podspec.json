@@ -1,0 +1,22 @@
+{
+  "name": "NSJFontResizingUITextView",
+  "version": "0.1.0",
+  "summary": "A short description of NSJFontResizingUITextView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/laughofnsjoker@gmail.com/NSJFontResizingUITextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "laughofnsjoker@gmail.com": "chandrachudh@f22labs.com"
+  },
+  "source": {
+    "git": "https://github.com/laughofnsjoker@gmail.com/NSJFontResizingUITextView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSJFontResizingUITextView/Classes/**/*"
+}
