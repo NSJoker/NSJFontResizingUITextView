@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A6EE7F9A255C0B29365EF9F /* NSJFontResizingUITextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NSJFontResizingUITextView.podspec; path = ../NSJFontResizingUITextView.podspec; sourceTree = "<group>"; };
-		3A6556A5B0DFDF834A63E1CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A6EE7F9A255C0B29365EF9F /* NSJFontResizingUITextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NSJFontResizingUITextView.podspec; path = ../NSJFontResizingUITextView.podspec; sourceTree = "<group>"; };
+		3A6556A5B0DFDF834A63E1CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DED8C43E3013808173B1261 /* Pods-NSJFontResizingUITextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSJFontResizingUITextView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSJFontResizingUITextView_Tests/Pods-NSJFontResizingUITextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NSJFontResizingUITextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSJFontResizingUITextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A95853C16EF47B02A23D7483 /* Pods_NSJFontResizingUITextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSJFontResizingUITextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5DD014A5149B16724618E8 /* Pods_NSJFontResizingUITextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSJFontResizingUITextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5A19340C762135F143E946 /* Pods-NSJFontResizingUITextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSJFontResizingUITextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSJFontResizingUITextView_Example/Pods-NSJFontResizingUITextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E95E078B28B3C7266F459408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E95E078B28B3C7266F459408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ALZVA7KATH;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ALZVA7KATH;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = AC5A19340C762135F143E946 /* Pods-NSJFontResizingUITextView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALZVA7KATH;
 				INFOPLIST_FILE = NSJFontResizingUITextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 6523254EA787D79FA3616D01 /* Pods-NSJFontResizingUITextView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALZVA7KATH;
 				INFOPLIST_FILE = NSJFontResizingUITextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DED8C43E3013808173B1261 /* Pods-NSJFontResizingUITextView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ALZVA7KATH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D806F1DC9609F099CDC53CB /* Pods-NSJFontResizingUITextView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ALZVA7KATH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

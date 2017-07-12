@@ -1,9 +1,8 @@
 # NSJFontResizingUITextView
 
-[![CI Status](http://img.shields.io/travis/laughofnsjoker@gmail.com/NSJFontResizingUITextView.svg?style=flat)](https://travis-ci.org/laughofnsjoker@gmail.com/NSJFontResizingUITextView)
-[![Version](https://img.shields.io/cocoapods/v/NSJFontResizingUITextView.svg?style=flat)](http://cocoapods.org/pods/NSJFontResizingUITextView)
-[![License](https://img.shields.io/cocoapods/l/NSJFontResizingUITextView.svg?style=flat)](http://cocoapods.org/pods/NSJFontResizingUITextView)
-[![Platform](https://img.shields.io/cocoapods/p/NSJFontResizingUITextView.svg?style=flat)](http://cocoapods.org/pods/NSJFontResizingUITextView)
+## Problem
+
+UITextField adjusts its font size dynamicaly with respect to is content, it can lower its font size upto a certain value set by the developer. The same requirement may arise for a UITextView where you have to set the content size of the UITextView constant and reduce the font size to view all the text in it without scrolling.
 
 ## Example
 
@@ -17,12 +16,13 @@ NSJFontResizingUITextView is available through [CocoaPods](http://cocoapods.org)
 it, simply add the following line to your Podfile:
 
 ```ruby
+source 'https://github.com/NSJoker/NSJFontResizingUITextViewPodSpecs.git'
 pod "NSJFontResizingUITextView"
 ```
 
 ## Author
 
-laughofnsjoker@gmail.com, chandrachudh@f22labs.com
+NSJoker, laughofnsjoker@gmail.com
 
 ## License
 
